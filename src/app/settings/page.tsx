@@ -8,7 +8,7 @@ import { Tabs, TabsList, TabsTrigger, TabsContent } from "@/components/ui/tabs";
 import { Switch } from "@/components/ui/switch"
 
 
-export default function ThemeCustomizer() {
+export default function Profile() {
 
   const [themeColor, setThemeColor] = useState("zinc");
   const [themeMode, setThemeMode] = useState("light");
